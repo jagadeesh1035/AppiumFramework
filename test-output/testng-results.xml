@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="156649" started-at="2020-12-14T11:14:44Z" finished-at="2020-12-14T11:17:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="156649" started-at="2020-12-14T11:14:44Z" finished-at="2020-12-14T11:17:21Z">
+      <class name="tests.SignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="setup" is-config="true" duration-ms="15328" started-at="2020-12-14T11:16:13Z" finished-at="2020-12-14T11:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessSignUptestCase()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="BusinessSignUptestCase" duration-ms="16641" started-at="2020-12-14T11:16:29Z" description="Perform Business SignUp action" finished-at="2020-12-14T11:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessSignUptestCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="afterMethod" is-config="true" duration-ms="1403" started-at="2020-12-14T11:16:45Z" finished-at="2020-12-14T11:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="setup" is-config="true" duration-ms="15243" started-at="2020-12-14T11:16:47Z" finished-at="2020-12-14T11:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PersonalSignUptestCase()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="PersonalSignUptestCase" duration-ms="17602" started-at="2020-12-14T11:17:02Z" description="Perform Personal SignUp action" finished-at="2020-12-14T11:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalSignUptestCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.SignUpTest@4cf777e8]" name="afterMethod" is-config="true" duration-ms="1222" started-at="2020-12-14T11:17:20Z" finished-at="2020-12-14T11:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.SignInTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="setUp" is-config="true" duration-ms="5127" started-at="2020-12-14T11:14:39Z" finished-at="2020-12-14T11:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="setup" is-config="true" duration-ms="17870" started-at="2020-12-14T11:14:44Z" finished-at="2020-12-14T11:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessSignIntestCase()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="BusinessSignIntestCase" duration-ms="11185" started-at="2020-12-14T11:15:02Z" description="Perform Business Sign In Functionality" finished-at="2020-12-14T11:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessSignIntestCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="afterMethod" is-config="true" duration-ms="1335" started-at="2020-12-14T11:15:14Z" finished-at="2020-12-14T11:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="setup" is-config="true" duration-ms="16075" started-at="2020-12-14T11:15:15Z" finished-at="2020-12-14T11:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessSignIntestCaseNegative()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="BusinessSignIntestCaseNegative" duration-ms="10476" started-at="2020-12-14T11:15:31Z" description="Perform Business Sign In Functionality" finished-at="2020-12-14T11:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessSignIntestCaseNegative -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="afterMethod" is-config="true" duration-ms="1183" started-at="2020-12-14T11:15:41Z" finished-at="2020-12-14T11:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="setup" is-config="true" duration-ms="16586" started-at="2020-12-14T11:15:43Z" finished-at="2020-12-14T11:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PersonalSignIntestCase()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="PersonalSignIntestCase" duration-ms="13024" started-at="2020-12-14T11:15:59Z" description="Perform Personal SignIn Functionality" finished-at="2020-12-14T11:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalSignIntestCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="afterMethod" is-config="true" duration-ms="1151" started-at="2020-12-14T11:16:12Z" finished-at="2020-12-14T11:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.SignInTestCases@59ec2012]" name="afterSuite" is-config="true" duration-ms="54" started-at="2020-12-14T11:17:22Z" finished-at="2020-12-14T11:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.SignInTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
